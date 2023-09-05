@@ -1,0 +1,19 @@
+#number_one{
+    color: red;
+}
+.number_two{
+    color: yellowgreen;
+}
+:root{
+    --text_color : red ;
+}
+h1{
+    --my_color : yellow ;
+    color: var(--my_color);
+}
+h2{
+    color: var(--text_color);
+}
+h3{
+    color: var(--text_color);
+}
